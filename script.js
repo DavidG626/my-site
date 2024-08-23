@@ -1,7 +1,8 @@
 
 
-
+// test
 console.log("Script.js is loaded and working");
+
 
 let currentMode = localStorage.getItem('mode') || 'lightmode';
 const themeSwitch = document.getElementById('theme-switch');
@@ -28,6 +29,9 @@ themeSwitch.addEventListener("click", () => {
             setMode('whitemode');
             break;
         case 'whitemode':
+            setMode('greenmode');
+            break
+        case 'greenmode':
             setMode('lightmode');
             break
     }
