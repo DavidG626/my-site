@@ -5,6 +5,12 @@
     /* border: 1px solid white; */
 }
 
+/* temp css for about.html */
+.about {
+    padding: 25px 25px 25px 25px;
+    color: var(--wht);
+}
+
 :root {
     /* colors */
     --or: #ff1e00;
@@ -216,7 +222,7 @@ body {
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    animation: autoRun 60s linear infinite; 
+    animation: autoRun 50s linear infinite; 
 }
 
 @keyframes autoRun {
