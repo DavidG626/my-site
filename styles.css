@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,6 +22,8 @@
 
     /* font-families */
     --old: "Special Elite", system-ui;
+    --rub: "ICA Rubrik", sans-serif;
+    --pop: "Poppins", sans-serif;
     
     /* font-sizes */
     --lrg: 44px;
@@ -172,29 +178,11 @@ body {
 
 
 
-.ham-item {
-    display:          flex;
-    flex-direction:   column;
-    align-items:      flex-end; /* Align items to the right */
-    margin-left:      auto;
-    width:            20%;
-    background-color: var(--or);
-    color:            var(--wht);
-    text-decoration:  none;
-    padding-right:    36px;
-    font-size:        var(--s);
-    transition:       ease-in-out 0.3s;
-    cursor:           crosshair;
-}
-
-.ham-item:hover {
-    font-size:        var(--ms);
-}
 
 @media only screen and   (max-width: 1024px) {
-    .item:not(:nth-child(1)) {
+    /* .item:not(:nth-child(1)) {
                          display: none;
-    }
+    } */
     .item:nth-child(1) {
         justify-content: center;
         width:           100%;
@@ -203,11 +191,11 @@ body {
       }
 }
 
-@media only screen and (min-width: 1025px) {
-    .ham-item {
-        display: none;
-    }
-}
+
+
+
+
+
 /* START CAROUSEL 1 */
 .banner {
     width:      100%;
@@ -215,6 +203,7 @@ body {
     text-align: center;
     overflow:   hidden;
     position:   relative;
+   
 }
 
 .banner .slider {
@@ -226,6 +215,7 @@ body {
     transform-style: preserve-3d;
     transform:       perspective(1000px);
     animation:       autoRun 100s linear infinite; 
+   
 }
 
 @keyframes autoRun {
@@ -282,13 +272,26 @@ body {
 }
 
 .banner .content h1 {
-    font-family: monospace;
+    margin-right: auto;
+    font-family: var(--rub);
     font-size: 16em;
     line-height: 2em;
     -webkit-text-stroke: .75px white;
     opacity: 85%;
     color: var(--wht);
 }
+
+.banner .content .author {
+    font-family: Poppins;
+    font-size: var(--md);
+    -webkit-text-stroke: .75px white;
+    line-height: 2em;
+    text-align: right;
+    max-width: 200px;
+    opacity: 85%;
+    color: var(--wht);
+}
+
 
 
 
@@ -305,30 +308,32 @@ body {
 
 .about {
     display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    
     color: var(--lblu);
     padding: 35px 45px;
-    
-  
     line-height: 1.5rem;
     
 }
 
-.about a {
+#link a {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    padding: 35px 45px;
+    width: 350px;
     
-    align-content: center;
-    height: 100px;
-    text-align: right;
+    
+   
+   
     color: var(--lblu);
     text-decoration: none;
     font-size: var(--s);
     transition: ease-in-out .3s;
     cursor: crosshair;
+   
+   
 }
 
-.about a:hover {
+#link a:hover {
     font-size: 1.5rem;
 }
 
