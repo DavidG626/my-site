@@ -6,13 +6,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
 }
 
 #musings {
     display: flex;
     justify-content: center;
     font-size: var(--lrg);
+    color: #8f9da6;
+    
+    
 }
 
 :root {
@@ -73,9 +76,9 @@
 }
 .lightmode {
     --or:   #ff1e00;     /* background */
-    --wht:  #ececec;
-    line-height: 2em;
-    -webkit-text-stroke: .75px black;}
+    --wht:  #ececec;     /* color */
+  
+}   
 .bluemode {
     --or:   #315470;    /* background */
     --wht:  #ff1e00;    /* color */
