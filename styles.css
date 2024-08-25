@@ -330,11 +330,16 @@ Large: 1441px and above
 
 
 /* temp css for about.html */
-
+.date {
+    display: flex;
+    color: var(--lblu);
+    padding: 35px 45px 0px 45px;
+    
+}
 .about {
     display: flex;
     color: var(--lblu);
-    padding: 35px 45px;
+    padding-left: 45px;
     line-height: 1.5rem;
     
 }
@@ -343,7 +348,8 @@ Large: 1441px and above
     display: flex;
     flex-wrap: wrap;
     margin-right: auto;
-    padding: 35px 45px;
+    padding-top: 35px;
+    padding-left: 45px;
     width: 350px;
     
     
