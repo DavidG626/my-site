@@ -6,10 +6,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid white; */
+    /* border: 1px solid purple; */
 }
 
-
+#musings {
+    display: flex;
+    justify-content: center;
+    font-size: var(--lrg);
+}
 
 :root {
     /* colors */
@@ -69,8 +73,9 @@
 }
 .lightmode {
     --or:   #ff1e00;     /* background */
-    --wht:  #ececec;    /* color */
-}
+    --wht:  #ececec;
+    line-height: 2em;
+    -webkit-text-stroke: .75px black;}
 .bluemode {
     --or:   #315470;    /* background */
     --wht:  #ff1e00;    /* color */
@@ -96,7 +101,7 @@ body {
 
 .nav {
     display: flex;
-    flex-wrap: wrap;
+    
     padding-right: 32px;
     
 }
@@ -177,18 +182,35 @@ body {
 
 
 
+/* screen sizesMobile phones:
+
+Small: 320px - 480px
+Medium: 481px - 767px
 
 
-@media only screen and   (max-width: 1024px) {
-    /* .item:not(:nth-child(1)) {
-                         display: none;
-    } */
-    .item:nth-child(1) {
-        justify-content: center;
-        width:           100%;
-        text-decoration: none;
-        font-size:       var(--lrg);
-      }
+Tablets:
+
+768px - 1024px
+
+
+Desktops:
+
+Small: 1025px - 1280px
+Medium: 1281px - 1440px
+Large: 1441px and above
+ 
+
+@media screen and (min-width: 481px)
+@media screen and (min-width: 769px) 
+@media screen and (min-width: 1025px)
+@media screen and (min-width: 1441px)
+ */
+
+@media only screen and   (max-width: 767px) {
+    
+    .special-47 {
+        font-size: 38px;
+    }
 }
 
 
