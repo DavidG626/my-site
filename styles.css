@@ -7,13 +7,38 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid purple; */
-   /* color modes for js*/
+   
+}
+
+:root {
+    /* colors */
+    --or:  #ff1e00;
+    --org: #ff6319;
+    --blu: #315470;
+    --lblu:#8f9da6;
+    --blk: black;
+    --wht: #ececec;
+    --gr:  #228B22;
+    --gf: #b9d9eb;
+
+    /* font-families */
+    --old: "Special Elite", system-ui;
+    --rub: "ICA Rubrik", sans-serif;
+    --pop: "Poppins", sans-serif;
+    
+    /* font-sizes */
+    --lrg: 44px;
+    --md:  24px;
+    --ms:  19.5px;
+    --s:   18px;
+    --sm:  16px;
 }
 .darkmode {
     --or:   black;       /* background */
     --wht:  #ff1e00;    /* color */
     
 }
+/* color modes for js*/
 .lightmode {
     --or:   #ff1e00;     /* background */
     --wht:  #ececec;     /* color */
@@ -43,29 +68,10 @@
     color: #8f9da6;
     
     
-}
-
-:root {
-    /* colors */
-    --or:  #ff1e00;
-    --blu: #315470;
-    --lblu:#8f9da6;
-    --blk: black;
-    --wht: #ececec;
-    --gr:  #228B22;
-
-    /* font-families */
-    --old: "Special Elite", system-ui;
-    --rub: "ICA Rubrik", sans-serif;
-    --pop: "Poppins", sans-serif;
     
-    /* font-sizes */
-    --lrg: 44px;
-    --md:  24px;
-    --ms:  19.5px;
-    --s:   18px;
-    --sm:  16px;
 }
+
+
 
 
 
@@ -95,36 +101,7 @@
 /* end switch color scheme */
 
 
-/* color modes for js*/
-.darkmode {
-    --or:   black;       /* background */
-    --wht:  #ff1e00;    /* color */
-    
-}
-.lightmode {
-    --or:   #ff1e00;     /* background */
-    --wht:  #ececec;     /* color */
-  
-}   
-.bluemode {
-    --or:   #315470;    /* background */
-    --wht:  #ff1e00;    /* color */
-}
-.whitemode {
-     --or: white;   /* background */
-     --wht: black;/* color */
-}
-.greenmode {
-    --or:   #228B22;    /* background */
-    --wht:  #ececec;    /* color */
-   
-}
-.greenmode h1
- {
 
-    -webkit-text-stroke: 2px #ff1e00;
-}
-/* end color modes for js */
 
 
 body {
@@ -257,7 +234,7 @@ Large: 1441px and above
 /* START CAROUSEL 1 */
 .banner {
     width:      100%;
-    height:     150vh;
+    height:     140vh;
     text-align: center;
     overflow:   hidden;
     position:   relative;
@@ -292,7 +269,7 @@ Large: 1441px and above
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(375px);
+         translateZ(500px);
 }
 
 .banner .slider .item img {
@@ -365,7 +342,7 @@ Large: 1441px and above
 /* temp css for about.html */
 .date {
     display: flex;
-    color: var(--lblu);
+    color: var(--gf);
     padding: 35px 45px 0px 45px;
     
 }
