@@ -6,7 +6,34 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
+   /* color modes for js*/
+}
+.darkmode {
+    --or:   black;       /* background */
+    --wht:  #ff1e00;    /* color */
+    
+}
+.lightmode {
+    --or:   #ff1e00;     /* background */
+    --wht:  #ececec;     /* color */
+  
+}   
+.bluemode {
+    --or:   #315470;    /* background */
+    --wht:  #ff1e00;    /* color */
+}
+.whitemode {
+     --or: white;   /* background */
+     --wht: black;/* color */
+}
+.greenmode {
+    --or:   #228B22;    /* background */
+    --wht:  #ececec;    /* color */
+   
+}
+.greenmode h1 .author {
+    -webkit-text-stroke: .75px black;
 }
 
 #musings {
@@ -89,7 +116,13 @@
 }
 .greenmode {
     --or:   #228B22;    /* background */
-    --wht:  #ececec ;    /* color */
+    --wht:  #ececec;    /* color */
+   
+}
+.greenmode h1
+ {
+
+    -webkit-text-stroke: 2px #ff1e00;
 }
 /* end color modes for js */
 
@@ -259,7 +292,7 @@ Large: 1441px and above
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(550px);
+         translateZ(375px);
 }
 
 .banner .slider .item img {
@@ -301,7 +334,7 @@ Large: 1441px and above
     font-family: var(--rub);
     font-size: 16em;
     line-height: 2em;
-    -webkit-text-stroke: .75px white;
+   
     opacity: 85%;
     color: var(--wht);
 }
@@ -309,7 +342,7 @@ Large: 1441px and above
 .banner .content .author {
     font-family: Poppins;
     font-size: var(--md);
-    -webkit-text-stroke: .75px white;
+    
     line-height: 2em;
     text-align: right;
     max-width: 200px;
