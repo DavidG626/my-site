@@ -8,8 +8,8 @@
     margin: 0;
     padding: 0;
     
-    /* border: 1px solid purple;
-    */
+    /* border: 1px solid purple; */
+   
 }
 
 :root {
@@ -21,7 +21,7 @@
     --blk: black;
     --wht: #ececec;
     --gr:  #228B22;
-    --gf: #b9d9eb;
+    --gf:  #b9d9eb;
 
     /* font-families */
     --old: "Special Elite", system-ui;
@@ -330,63 +330,13 @@ Large: 1441px and above
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* temp css for about.html */
-.about-body {
-    background-color: var(--blu);
-    color: var(--lblu);
-}
-.date {
-    display: flex;
-    
-   
-    padding: 35px 45px 16px 45px;
-    
-}
-.about {
-    display: flex;
-    background-color: var(--blu);
-   
-    padding-left: 45px;
-    line-height: 1.5rem;
-    
-}
-
-#link a {
+.content-text {
     display: flex;
     flex-wrap: wrap;
-    margin-right: auto;
-    padding-top: 35px;
-    padding-left: 45px;
-    width: 350px;
-    color: var(--or);
-    
-    
-    
-   
-   
-  
-    text-decoration: none;
-    font-size: var(--s);
-    transition: ease-in-out .3s;
-    cursor: crosshair;
-   
-   
+    padding: 28px 28px 28px 28px;
+    color: var(--wht);
 }
 
-#link a:hover {
-    font-size: 1.5rem;
-}
 
 
 
