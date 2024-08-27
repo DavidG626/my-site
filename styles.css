@@ -7,8 +7,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid purple; */
-   
+    
+    /* border: 1px solid purple;
+    */
 }
 
 :root {
@@ -62,9 +63,8 @@
 
 
 #musings {
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    
+    
     font-size: var(--xl);
     color: #8f9da6;
     
@@ -270,7 +270,7 @@ Large: 1441px and above
     left:   0;
     transform: 
          rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-         translateZ(500px);
+         translateZ(550px);
 }
 
 .banner .slider .item img {
@@ -304,6 +304,7 @@ Large: 1441px and above
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+   
     
 }
 
@@ -312,7 +313,7 @@ Large: 1441px and above
     font-family: var(--rub);
     font-size: 16em;
     line-height: 2em;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px var(--gf);
     opacity: 85%;
     color: var(--wht);
 }
@@ -320,7 +321,7 @@ Large: 1441px and above
 .banner .content .author {
     font-family: Poppins;
     font-size: var(--md);
-    -webkit-text-stroke: .5px black;
+    -webkit-text-stroke: .5px var(--gf);
     line-height: 2em;
     text-align: right;
     max-width: 200px;
