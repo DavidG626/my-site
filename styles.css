@@ -28,6 +28,7 @@
     --pop: "Poppins", sans-serif;
     
     /* font-sizes */
+    --xl: 100px;
     --lrg: 44px;
     --md:  24px;
     --ms:  19.5px;
@@ -58,14 +59,13 @@
     --wht:  #ececec;    /* color */
    
 }
-.greenmode h1 .author {
-    -webkit-text-stroke: .75px black;
-}
+
 
 #musings {
+    height: 500px;
     display: flex;
     justify-content: center;
-    font-size: var(--lrg);
+    font-size: var(--xl);
     color: #8f9da6;
     
     
@@ -312,7 +312,7 @@ Large: 1441px and above
     font-family: var(--rub);
     font-size: 16em;
     line-height: 2em;
-   
+    -webkit-text-stroke: 1px black;
     opacity: 85%;
     color: var(--wht);
 }
@@ -320,7 +320,7 @@ Large: 1441px and above
 .banner .content .author {
     font-family: Poppins;
     font-size: var(--md);
-    
+    -webkit-text-stroke: .5px black;
     line-height: 2em;
     text-align: right;
     max-width: 200px;
