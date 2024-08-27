@@ -342,20 +342,20 @@ Large: 1441px and above
 
 /* temp css for about.html */
 .about-body {
-    background-color: #315470 !important;;
-    color: #ff1e00 color;
+    background-color: var(--blu);
+    color: var(--lblu);
 }
 .date {
     display: flex;
-    background-color: #315470 ;
-    color: #ff1e00;
-    padding: 35px 45px 0px 45px;
+    
+   
+    padding: 35px 45px 16px 45px;
     
 }
 .about {
     display: flex;
-    background-color: #315470;
-    color: #ff1e00;
+    background-color: var(--blu);
+   
     padding-left: 45px;
     line-height: 1.5rem;
     
@@ -368,8 +368,8 @@ Large: 1441px and above
     padding-top: 35px;
     padding-left: 45px;
     width: 350px;
-    color: #ff1e00;
-    background-color: #315470;
+    color: var(--or);
+    
     
     
    
