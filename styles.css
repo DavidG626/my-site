@@ -138,21 +138,22 @@ body {
 }
 /* logo end */
 
-.item {
+.nav-1 {
     align-items: center;
     display: flex;
     justify-content: center;
     background-color: var(--or);
     color: var(--wht);
     text-decoration: none;
-    padding-right: 10px;
-    padding-left: 10px;
+    
+
+   
     
     
 }
 
 /* 1st */
-.item:nth-child(1) {
+.nav-1:nth-child(1) {
     text-decoration: none;
     font-size: var(--lrg);
     margin-right: auto;
@@ -160,36 +161,36 @@ body {
 }
 
 /* 2nd */
-.item:nth-child(2) {
+.nav-1:nth-child(2) {
     font-size: var(--s);
     margin-left: 0;
     transition: ease-in-out 0.3s;
     cursor: crosshair;
 }
-.item:nth-child(2):hover {
+.nav-1:nth-child(2):hover {
     font-size: var(--ms);
 }
 
 /* 3rd */
-.item:nth-child(3) {
+.nav-1:nth-child(3) {
     font-size: var(--s);
     margin-left: 0;
     transition: ease-in-out 0.3s;
     cursor: crosshair;
 }
-.item:nth-child(3):hover {
+.nav-1:nth-child(3):hover {
     font-size: var(--ms);
 }
 
 /* 4th */
-.item:nth-child(4) {
+.nav-1:nth-child(4) {
     font-size: var(--s);
     margin-left: 0;
     transition: ease-in-out 0.3s;
     cursor: crosshair;
 }
 
-.item:nth-child(4):hover {
+.nav-1:nth-child(4):hover {
     font-size: var(--ms);
 }
 
