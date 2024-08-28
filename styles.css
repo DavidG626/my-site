@@ -72,7 +72,12 @@
     
 }
 
-
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: transparent !important;
+    z-index: 100;
+}
 
 
 
@@ -81,6 +86,7 @@
 /* switch color scheme */
 .toggle {
     padding: 21px 38px 1px 0px;
+   
 }
 .button {
     display:       flex;
@@ -115,7 +121,6 @@ body {
 
 .nav {
     display: flex;
-    
     padding-right: 32px;
     
 }
@@ -123,11 +128,13 @@ body {
 /* logo start */
 .special-47 {
     font-size: 50px;
+   
     
     
 }
 .special-13 {
     font-size: 38px;
+  
 
 }
 .special-web-dev {
@@ -135,6 +142,7 @@ body {
     padding-left: 16px;
     align-self: center;
     padding-top: px;
+ 
 }
 /* logo end */
 
@@ -142,9 +150,10 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: var(--or);
+    background-color: transparent;
     color: var(--wht);
     text-decoration: none;
+    
     
 
    
