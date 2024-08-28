@@ -329,11 +329,20 @@ Large: 1441px and above
     color: var(--wht);
 }
 
-
-.content-text {
+.h1-blog {
+    display: flex;
+    justify-content: center;
+    color: var(--wht);
+}
+.blog-text {
     display: flex;
     flex-wrap: wrap;
-    padding: 28px 28px 28px 28px;
+    padding: 8px 28px 28px 28px;
+    color: var(--wht);
+}
+.date-blog {
+    display: flex;
+    padding-left: 28px;
     color: var(--wht);
 }
 
