@@ -1,0 +1,24 @@
+
+/* screen sizesMobile phones:
+
+Small: 320px - 480px
+Medium: 481px - 767px
+
+
+Tablets:
+
+768px - 1024px
+
+
+Desktops:
+
+Small: 1025px - 1280px
+Medium: 1281px - 1440px
+Large: 1441px and above
+ 
+
+@media screen and (min-width: 481px)
+@media screen and (min-width: 769px) 
+@media screen and (min-width: 1025px)
+@media screen and (min-width: 1441px)
+ */
