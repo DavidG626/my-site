@@ -22,6 +22,7 @@
     --wht: #ececec;
     --gr:  #228B22;
     --gf:  #b9d9eb;
+    --gray: #b9b1ac;
 
     /* font-families */
     --old: "Special Elite", system-ui;
@@ -63,10 +64,10 @@
 
 
 #musings {
-    
-    
+    font-family: var(--rub);
+    -webkit-text-stroke: .75px white;
     font-size: var(--xl);
-    color: #8f9da6;
+    color: #ff1e00;
     
     
     
@@ -326,15 +327,15 @@ Large: 1441px and above
     font-family: var(--rub);
     font-size: 16em;
     line-height: 2em;
-    -webkit-text-stroke: 1px var(--gf);
+    -webkit-text-stroke: .75px white;
     opacity: 85%;
     color: var(--wht);
 }
 
 .banner .content .author {
-    font-family: 'Poppins';
+    font-family: var(--rub);
     font-size: var(--md);
-    -webkit-text-stroke: .5px var(--gf);
+    
     line-height: 2em;
     text-align: right;
     max-width: 200px;
