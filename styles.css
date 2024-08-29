@@ -37,31 +37,39 @@
     --s:   18px;
     --sm:  16px;
 }
+
+/* color modes for js*/
 .darkmode {
+    --inherits: false;
     --or:   black;       /* background */
     --wht:  #ff1e00;    /* color */
     
 }
-/* color modes for js*/
 .lightmode {
     --or:   #ff1e00;     /* background */
     --wht:  #ececec;     /* color */
-  
+    --inherits: false;
 }   
 .bluemode {
     --or:   #315470;    /* background */
-    --wht:  #ff1e00;    /* color */
+    --wht:  #ff1e00; 
+    --inherits: false;   /* color */
 }
 .whitemode {
      --or: white;   /* background */
      --wht: black;/* color */
+     --inherits: false;
 }
 .greenmode {
     --or:   #228B22;    /* background */
     --wht:  #ececec;    /* color */
+    --inherits: false;
    
 }
-
+.heading {
+    display: flex;
+    justify-content: center;
+}
 
 #musings {
     font-family: var(--rub);
@@ -363,6 +371,7 @@ Large: 1441px and above
     padding-left: 28px;
     color: var(--wht);
 }
+
 
 
 
