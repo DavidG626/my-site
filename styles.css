@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
     
    
-    /* border: 1px solid purple; */
+    /* border: 1px solid #b9d9eb; */
     
 }
 
@@ -240,6 +240,7 @@ h2, h3, p {
 
 .content {
     display: flex;
+    font-family: var(--rub);
 }
 
 
