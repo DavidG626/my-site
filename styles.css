@@ -57,23 +57,23 @@ h2, h3, p {
 /* START COLOR MODE*/
 .darkmode {
     --or:   black;       /* background */
-    --wht:  #ff1e00;    /* color */
+    --wht:  #FF6633;   /* color */
     }
 .lightmode {
-    --or:   #ff1e00;     /* background */
-    --wht:  #ececec;     /* color */
+    --or:   #FF6633;     /* background */
+    --wht:  #b9d9eb;     /* color */
     }   
 .bluemode {
-    --or:   #315470;    /* background */
-    --wht:  #ff1e00;    /* color */
+    --or:   #0099cc;    /* background */
+    --wht:  #FF6633;    /* color */
     }
 .whitemode {
      --or: white;   /* background */
-     --wht: black;/* color */
+     --wht: #b9d9eb;/* color */
     }
 .greenmode {
     --or:   #228B22;    /* background */
-    --wht:  #ececec;    /* color */
+    --wht:  #b9d9eb;    /* color */
     }
 /* END COLOR MODE */
 
@@ -90,8 +90,7 @@ h2, h3, p {
     display: flex;
     align-items: center;
     padding: 0 32px;
-    /* background-color: transparent;
-    backdrop-filter: blur(30px); */
+    height: 100px;
     }
 
 .nav-1 {
@@ -100,6 +99,8 @@ h2, h3, p {
     background-color: transparent;
     color: var(--wht);
     text-decoration: none;
+    font-family: var(--rub);
+   
     }
 
 .nav-1:nth-child(1) {
@@ -108,20 +109,22 @@ h2, h3, p {
     }   
 
 .nav-1:not(:first-child) {
-    font-size: var(--s);
+    font-size: var(--md);
     transition: font-size 0.3s ease-in-out;
     cursor: crosshair;
     }
 
 .nav-1:not(:first-child):hover {
-    font-size: var(--ms);
+    font-size: var(--lrg);
     }
 
 /* START LOGO */
-.special-47 { font-size: 50px; }
-.special-13 { font-size: 38px; }
+.special-47 { font-size: 86px; }
+.special-space { font-size: 70px;}
+.special-13 { font-size: 66px; }
 .special-web-dev {
-    font-size: 22px;
+    
+    font-size: 32px;
     padding-left: 16px;
     align-self: center;
     }
@@ -178,7 +181,7 @@ h2, h3, p {
     top: 100px;
     font-family: var(--rub);
     font-size: var(--xl);
-    color: #ff1e00;
+    color: #b9d9eb;
     -webkit-text-stroke: .75px white;
     }
 /* END CENTER IMAGE IN CAROUSEL */
